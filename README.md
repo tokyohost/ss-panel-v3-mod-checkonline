@@ -50,3 +50,6 @@
   
 最后必要时断开服务器时选择exit命令。
 
+/root/ss-panel-v3-mod-checkonline-master/check.txt 为脚本日志。
+
+
