@@ -8,6 +8,8 @@
 确保shadowsocks 程序安装在 /root/shadowsocks/ 目录中
 
 第一步：
+  cd /root
+  
   wget https://github.com/tokyohost/ss-panel-v3-mod-checkonline/archive/master.zip
 
   下载文件
