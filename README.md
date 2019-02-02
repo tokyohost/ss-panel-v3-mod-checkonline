@@ -37,6 +37,10 @@
 
   运行程序
   
+ 第一步-第五步一键脚本（尽量一步一步走）：
+ 
+ wget https://github.com/tokyohost/ss-panel-v3-mod-checkonline/archive/master.zip&&unzip master.zip&&cd ss-panel-v3-mod-checkonline-master&&chmod +x runcheck.sh&&chmod +x check.sh&&./runcheck.sh &
+  
 第六步：
   vi /etc/rc.d/rc.local
 
