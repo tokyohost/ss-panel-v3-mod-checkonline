@@ -7,29 +7,36 @@
 
 确保shadowsocks 程序安装在 /root/shadowsocks/ 目录中
 
-第一步：wget https://github.com/tokyohost/ss-panel-v3-mod-checkonline/archive/master.zip
+第一步：
+  wget https://github.com/tokyohost/ss-panel-v3-mod-checkonline/archive/master.zip
 
   下载文件
   
-第二步：unzip master.zip
+第二步：
+  unzip master.zip
 
   解压文件
   
-第三步：cd ss-panel-v3-mod-checkonline-master
+第三步：
+  cd ss-panel-v3-mod-checkonline-master
 
   进入目录
   
-第四步：chmod +x runcheck.sh
+第四步：
+        chmod +x runcheck.sh
 
         chmod +x check.sh
         
+        
   添加权限
   
-第五步：./runcheck.sh &
+第五步：
+  ./runcheck.sh &
 
   运行程序
   
-第六步：vi /etc/rc.d/rc.local
+第六步：
+  vi /etc/rc.d/rc.local
 
 按下键盘<i>键，并在文件末尾添加：sh /root/ss-panel-v3-mod-checkonline-master/runcheck.sh & 
   
