@@ -58,4 +58,16 @@
 
 /root/ss-panel-v3-mod-checkonline-master/check.txt 为脚本日志。
 
+常见出错提示：
+
+wget ：command not found
+
+解决方法：yum -y install wget
+
+unzip : command not found
+
+解决方法：yum -y install unzip
+
+更多解决方法：www.baidu.com
+
 
