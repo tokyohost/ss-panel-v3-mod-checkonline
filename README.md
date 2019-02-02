@@ -1,7 +1,7 @@
 # ss-panel-v3-mod-checkonline
 适用于 ss-panel-v3-mod 面板对应的SSR后端运行监控脚本（检测服务端是否正在运行，在检测到停止运行时主动启动服务端）【自用】
 
-仅用于Çentos 系统（已在Centos 7.1 中实验成功）
+仅用于Çentos 系统（已在Centos 7.1 中验证）
 
 使用方法：
 
