@@ -41,8 +41,12 @@
 按下键盘<i>键，并在文件末尾添加：sh /root/ss-panel-v3-mod-checkonline-master/runcheck.sh & 
   
 然后：按下<Esc>键，输入<:wq>(尖括号内内容)
+
+最后：chmod +x /etc/rc.d/rc.local
   
   添加开机自启
+  
+  大功告成
   
 最后必要时断开服务器时选择exit命令。
 
