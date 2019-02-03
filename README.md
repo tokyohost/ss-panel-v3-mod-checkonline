@@ -44,9 +44,9 @@
 第六步：
   vi /etc/rc.d/rc.local
 
-按下键盘<i>键，并在文件末尾添加：sh /root/ss-panel-v3-mod-checkonline-master/runcheck.sh & 
+按下键盘i键，并在文件末尾添加：sh /root/ss-panel-v3-mod-checkonline-master/runcheck.sh & 
   
-然后：按下<Esc>键，输入<:wq>(尖括号内内容)
+然后：按下Esc键，输入<:wq>(尖括号内内容)
 
 最后：chmod +x /etc/rc.d/rc.local
   
